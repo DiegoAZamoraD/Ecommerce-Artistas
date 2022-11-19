@@ -26,6 +26,7 @@ function Login() {
     }
 
     return (
+         
         <div className="login-page">
             <form onSubmit={loginSubmit}>
                 <h2>Iniciar Sesión</h2>
@@ -41,7 +42,7 @@ function Login() {
                 </div>
             </form>
         </div>
-    )
+    ) 
 }
 
 export default Login

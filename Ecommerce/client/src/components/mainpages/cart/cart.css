@@ -1,11 +1,25 @@
+
+.productos_relacinados{
+    
+    margin-top: 10px;
+    text-align: center;
+    background-color: #777;
+    color: white;
+
+      
+}
+
+
 .cart{
     position: relative;
-    border: 1px solid #ccc;
     transform: scaleY(0.98);
+    margin-top: 10px;
+    
 }
 .amount span{
     color: crimson;
     padding: 0 20px;
+    
 }
 .amount button{
     width: 40px;
@@ -16,17 +30,20 @@
     position: absolute;
     top:0;
     right: 5px;
+    margin: 0 10px;
     color: crimson;
     font-weight: 900;
     cursor: pointer;
 }
 .total{
-    width: 100%;
-    height: 50px;
+    width: 93%;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 20px;
+    padding: 30px;
 }
 .total h3{
-    color: crimson;
+    color: #ec5e0b;
 }

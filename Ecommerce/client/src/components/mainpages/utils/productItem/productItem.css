@@ -7,6 +7,10 @@
     margin: 10px 0;
     position: relative;
 }
+
+.product_card:hover{
+    box-shadow: 0 0 20px hwb(208 1% 87% / 0.392);
+}
 .product_card img{
     width: 100%;
     height: 300px;
@@ -50,12 +54,22 @@
     padding: 6px;
 }
 #btn_buy{
-    background: #555;
+    background:#274b4b;
     margin-right: 5px;
+    border-radius: 5px;
+}
+
+#btn_buy:hover{
+    font-size: 18px;
 }
 #btn_view{
-    background: teal;
+    background:#0BECB8;
     margin-left: 5px;
+    border-radius: 8px;
+}
+
+#btn_view:hover{
+    font-size: 18px;
 }
 .product_card input{
     position: absolute;

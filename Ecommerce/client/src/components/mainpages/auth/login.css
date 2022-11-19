@@ -4,11 +4,12 @@
     border-radius: 5px;
     padding: 30px;
     margin: 50px auto;
+    background: black;
 }
 .login-page h2{
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #555;
+    color: rgb(237, 233, 233);
 }
 .login-page form input,
 .login-page form button{

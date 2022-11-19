@@ -43,7 +43,7 @@ function DetailProduct() {
             </div>
 
             <div>
-                <h2>Related products</h2>
+                <h2 className='productos_relacinados' >PRODUCTOS RELACIONADOS</h2>
                 <div className="products">
                     {
                         products.map(product => {

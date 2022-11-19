@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 30px auto;
+    
 }
 .categories form{
     width: 290px;
@@ -27,9 +28,22 @@
 }
 .categories button{
     width: 70px;
-    background: #555;
+    
     color: white;
     margin-left: 10px;
+    border-radius: 10px;
+}
+
+.crear{
+    background: #0BECB8;
+}
+
+.editar{
+    background: #99B0A7 ;
+}
+
+.eliminar{
+    background: #00C1FF;
 }
 .categories .row{
     min-width: 290px;

@@ -81,7 +81,7 @@ function Cart() {
         return <h2 style={{textAlign: "center", fontSize: "5rem"}}>Carrito vacio</h2> 
 
     return (
-        <div>
+        <div className='carrito' >
             {
                 cart.map(product => (
                     <div className="detail cart" key={product._id}>

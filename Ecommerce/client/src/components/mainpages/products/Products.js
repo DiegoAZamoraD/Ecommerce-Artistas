@@ -5,6 +5,8 @@ import Loading from '../utils/loading/Loading'
 import axios from 'axios'
 import Filters from './Filters'
 import LoadMore from './LoadMore'
+import Carrousel from '../carrousel/Carrousel'
+
 
 
 function Products() {
@@ -60,6 +62,9 @@ function Products() {
     return (
         <>
         <Filters />
+        <Carrousel />
+
+        
         
         {
             isAdmin && 

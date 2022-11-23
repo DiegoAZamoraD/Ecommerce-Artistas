@@ -38,7 +38,7 @@ p{
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp:3;
-    height: 30px;
+    height: 26px;
     overflow: hidden;
     color: #181618;
 }
